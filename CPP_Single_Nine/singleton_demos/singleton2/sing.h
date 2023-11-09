@@ -4,7 +4,7 @@
 class Sing
 {
 public:
-    static const Sing& Instance()
+    static const Sing& Instance() //static保证只在首次访问时被调用
     {
         static Sing inst;
         return inst;
