@@ -8,3 +8,4 @@ set( CMAKE_BUILD_TYPE "Debug" )
 
 add_executable(main1 singleton1/main.cpp singleton1/sing.cpp)
 add_executable(main2 singleton2/main.cpp)
+add_executable(main3 singleton3/main.cpp)
